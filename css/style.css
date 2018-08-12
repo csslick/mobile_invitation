@@ -80,7 +80,10 @@ body{
   margin-top: 30px;
   margin-bottom: 30px;
 }
-#main p{ line-height: 2em;}
+#main p{
+  line-height: 2em;
+  font-size: 12px;
+}
 #main > .container{
   background: #fff;
 }
@@ -91,12 +94,13 @@ body{
 #main .call{
   list-style-type: none;
 }
-#main .call{
+#main .call a{
+  font-size: 0.8rem;
   line-height: 2.4em;
 }
-#main .call span{
+#main .call a span{
   display: inline-block;
-  font-size: 1.2em;
+  font-size: 1rem;
   margin: 0px;
 }
 #main .call span:first-child{
@@ -129,6 +133,8 @@ body{
   width: 80%;
   /* border: 1px solid red; */
   float: right;
+  font-size: 12px;
+  line-height: 18px;
 
 }
 #calendar table{
