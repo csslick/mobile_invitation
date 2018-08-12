@@ -72,7 +72,7 @@ body{
   display: block;
 }
 
-
+/* 결혼합니다 */
 #main{
   background: #ececec;
   padding: 30px;
@@ -83,7 +83,7 @@ body{
 }
 #main p{
   line-height: 2em;
-  font-size: 12px;
+  font-size: 13px;
 }
 #main > .container{
   background: #fff;
@@ -97,7 +97,8 @@ body{
 }
 #main .call a{
   font-size: 0.8rem;
-  line-height: 2.4em;
+  line-height: 3em;
+  letter-spacing: 1px;
 }
 #main .call a span{
   display: inline-block;
@@ -178,6 +179,7 @@ body{
 }
 #map .traffic{
   background: #ececec;
+  color: #666;
   padding-top: 0px;
 }
 #map .traffic dt{
@@ -193,6 +195,7 @@ body{
 
 #main_footer{
   text-align: center;
+  color: #999;
 }
 #main_footer .sns a{
   display: inline-block;
