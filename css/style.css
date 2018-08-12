@@ -11,7 +11,8 @@ a{
 body{
   font-family: 'Nanum Myeongjo', serif;
   font-size: 14px;
-  color: #333
+  color: #333;
+  background: url(../images/fresh_snow.png);
 }
 .clearfix:after{
   content: '';
@@ -38,7 +39,7 @@ body{
 #main_header h2{
   float: right;
   font-size: small;
-  color: #ccc;
+  color: #999;
   letter-spacing: 1px;
 }
 
