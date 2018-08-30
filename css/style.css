@@ -9,6 +9,8 @@ a{
   color: inherit;
 }
 body{
+  width: 100%;
+  max-width: 768px;
   font-family: 'Nanum Myeongjo', serif;
   font-size: 14px;
   color: #333;
